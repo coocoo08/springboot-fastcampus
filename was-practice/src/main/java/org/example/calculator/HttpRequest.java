@@ -1,11 +1,7 @@
-package org.example;
-
-import org.example.QueryStrings;
-import org.example.RequestLine;
+package org.example.calculator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.net.http.HttpHeaders;
 
 public class HttpRequest {
     private final RequestLine requestLine;
